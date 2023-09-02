@@ -18,7 +18,7 @@ export class WorkComponent {
   {
     id: 2,
     name: "To-Do List",
-    image: "../../assets/todo_list.png",
+    image: "../../assets/todo_list2.png",
     description: `Tech Stack - HTML, CSS, JavaScript. Simple To-do list to add, edit, and delete the daily tasks.`,
     url: "https://codepen.io/Amrit001/pen/RwEPqGp"
 
