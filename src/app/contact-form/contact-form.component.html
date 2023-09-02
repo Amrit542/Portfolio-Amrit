@@ -1,0 +1,42 @@
+<div class="outer-body">
+  <div class="form-container">
+    <div class="row">
+      <h1>Get In Touch</h1>
+    </div>
+    <div class="row">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div class="form-row">
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            formControlName="firstName"
+            
+          />
+          <input type="text" 
+          name="lastName" 
+          placeholder="Last Name"
+          formControlName="lastName"
+           />
+        </div>
+        <div class="form-row">
+          
+          <input type="email" name="email" placeholder="Email" formControlName="email" />
+          <input type="tel" name="phone" placeholder="Phone" formControlName="phone" />
+        </div>
+        <div class="form-row">
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Type your message here"
+            formControlName="message"
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+

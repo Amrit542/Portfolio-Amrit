@@ -1,0 +1,87 @@
+.outer-body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+.form-container {
+    width: 70vw;
+    border: 1px solid #131314;
+    border-radius: 10px;
+    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 15px;
+    border: 1px solid #6e07f3;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+.form-row {
+    display: flex;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6e07f3;
+
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6e07f3;
+    box-shadow: 0 0 5px blue;
+}
+
+button[type="submit"] {
+    background-color: white;
+
+
+    color: #6e07f3;
+    border: 1px solid #6e07f3;
+    border-radius: 15px;
+    padding: 20px 20px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin-bottom: 1rem;
+    width: 200px;
+    transition-duration: 700ms;
+
+}
+
+.form-container button:hover {
+    background-color: #6e07f3;
+    color: white;
+}
+
+h1,
+form:last-child {
+    text-align: center;
+    color: #6e07f3;
+}
