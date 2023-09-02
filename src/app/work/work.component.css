@@ -17,6 +17,9 @@
     padding: 2rem;
   
 }
+.single a,img {
+    display: block;
+}
 
 .single .button {
 background-color: #dfcecb;

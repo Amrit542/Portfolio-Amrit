@@ -1,5 +1,5 @@
 .outer-body {
-    min-height: 100vh;
+    /* min-height: 90vh; */
     display: flex;
     align-items: center;
 }
@@ -13,8 +13,8 @@
     border: 1px solid #131314;
     border-radius: 10px;
     box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.1);
-    margin: auto;
-    margin-bottom: 2rem;
+    /* margin: auto; */
+    margin: 3px auto;
     display: flex;
     flex-direction: column;
     padding: 40px;
